@@ -3,7 +3,7 @@ This repository contains the course project for the R language class during the 
 
 ## Project Description
 
-This repository contains the course project for the R language class during the Spring 2024 semester at Southern Medical University. The project focuses on implementing two fast algorithms for dynamic PCA (Principal Component Analysis) updates: recursive and stochastic gradient methods. The codebase also includes auxiliary functions designed to update the sample mean and covariance.
+The project focuses on implementing two fast algorithms for dynamic PCA (Principal Component Analysis) updates: recursive and stochastic gradient methods. The codebase also includes auxiliary functions designed to update the sample mean and covariance.
 
 ### Key Features
 
