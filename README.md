@@ -9,7 +9,7 @@ This repository contains the course project for the R language class during the 
 
 - **Recursive PCA Update Algorithm**: Efficiently updates principal components as new data arrives, using a recursive methodology.
 - **Stochastic Gradient PCA Update Algorithm**: Implements a more randomized approach to updating principal components, which can be advantageous in large-scale applications.
-- **Utility Functions**: Functions to update the sample mean and sample covariance, essential for maintaining accurate PCA in dynamic environments.
+- **Utility Functions**: Functions to update the sample mean and sample covariance, essential for maintaining accurate PCA in dynamic environments. Includes a Timer implemented using closures to efficiently track and manage the performance and timing of updates, ensuring minimal overhead and maximal efficiency.
 
 ### Current Challenges
 
