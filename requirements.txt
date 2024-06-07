@@ -1,3 +1,6 @@
 library('rARPACK')
 library('ggplot2')
 library('colorspace')
+library('survival')
+library('pca3d')
+library('rgl')
