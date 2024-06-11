@@ -1,4 +1,4 @@
-num_observations <- 2e5
+num_observations <- 2e4
 num_features <- 1000
 num_components <- 80
 initial_observations <- (num_observations - 10)

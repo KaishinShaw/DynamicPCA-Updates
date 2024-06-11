@@ -1,4 +1,4 @@
-num_observations <- 2e5
+num_observations <- 2e4
 num_features <- 1000
 num_components <- 80
 data_matrix <- matrix(runif(num_observations * num_features), num_observations, num_features)
