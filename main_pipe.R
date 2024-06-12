@@ -1,5 +1,17 @@
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+packages <- c("rARPACK", "ggplot2", "colorspace", "survival")
+install_if_missing <- function(packages) {
+  for (pkg in packages) {
+    if (!require(pkg, character.only = TRUE)) {
+      install.packages(pkg, dependencies = TRUE)
+      library(pkg, character.only = TRUE)
+    }
+  }
+}
+
+install_if_missing(packages)
+
 source("elapsed_timer.R", echo = TRUE, print.eval = TRUE)
 source("updateMean.R", echo = TRUE, print.eval = TRUE)
 source("spectra_pca.R", echo = TRUE, print.eval = TRUE)
