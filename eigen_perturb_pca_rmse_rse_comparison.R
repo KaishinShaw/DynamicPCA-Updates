@@ -24,7 +24,7 @@ ggplot(df, aes(x = Method)) +
     scale_y_continuous(
         name = "RMSE",
         sec.axis = sec_axis(~ . / 10000, name = "RSE"),
-        limits = c(0, 5)
+        limits = c(0, max(df$RMSE, df$RSE * 10000))  # Adjust this line
     ) +
     theme_minimal() +
     theme(
